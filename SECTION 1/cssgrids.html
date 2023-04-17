@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using css grids</title>
+
+    <style>
+        .mycard{
+            border:2px solid blueviolet;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .mycontainer{
+            display:grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 20px;
+            row-gap: 20px;
+            /* gap:30px;  for adding same gap in row and column in single function */
+           grid-template-columns: repeat(3,1fr);
+        }
+    </style>
+</head>
+<body>
+    
+<div class ="mycontainer">
+
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+<div class ="mycard">
+
+<h3> card title</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iure, provident reiciendis nobis illo eligendi aspernatur veritatis? Earum, ullam itaque?</p>
+
+</div>
+
+</div>
+
+</body>
+</html>
